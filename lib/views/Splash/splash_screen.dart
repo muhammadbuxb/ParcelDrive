@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:parcel_rider/Splash/onboarding_one.dart';
+import 'package:parcel_rider/views/Splash/onboarding_one.dart';
 import 'package:parcel_rider/resources/utills.dart';
 
 class SplashScreen extends StatefulWidget {
