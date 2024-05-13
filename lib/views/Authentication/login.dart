@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:parcel_rider/resources/utills.dart';
-import 'package:parcel_rider/views/Home/home_page.dart';
+import 'package:parcel_rider/views/Home/home_screen.dart';
 
 import '../../custom_widgets/button.dart';
 

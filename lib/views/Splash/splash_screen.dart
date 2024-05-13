@@ -1,8 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:parcel_rider/views/Home/home_page.dart';
 import 'package:parcel_rider/views/Splash/onboarding_one.dart';
 import 'package:parcel_rider/resources/utills.dart';
+
+import '../profile/profile.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -17,9 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // TODO: implement initState
     super.initState();
     Timer(Duration(seconds: 3), () {
-      Navigator.pushReplacement(context, 
-      MaterialPageRoute(builder:(context)=> OnBoardingOneScreen() )
-      );
+      Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
     });
   }
 
